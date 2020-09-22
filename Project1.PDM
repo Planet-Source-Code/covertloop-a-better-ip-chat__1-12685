@@ -1,0 +1,302 @@
+[Root]
+Most Recent Package=IC1
+
+
+[Package|InterChat|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\VBSTUFF\MattsChatProg
+
+[Package|InterChat|Configure DAO ISAMs]
+Applicable=No
+
+[Package|InterChat|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|InterChat|Files Found]
+
+[Package|InterChat|Files Released]
+
+[Package|InterChat|Missing Dependency Information]
+
+[Package|InterChat|Out-of-Date Dependency Information]
+
+[Package|InterChat|Files Added]
+C:\InterChat\Receive.wav=
+C:\InterChat\Send.wav=
+
+[Package|InterChat|Files Removed]
+
+[Package|InterChat|Files In Project]
+C:\InterChat\InterChat.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\InterChat\Receive.wav=Yes
+C:\InterChat\Send.wav=Yes
+
+[Package|InterChat|Configure Registry Files]
+Applicable=No
+
+[Package|InterChat|Configure Remote Servers]
+Applicable=No
+
+[Package|InterChat|Install Locations]
+C:\InterChat\InterChat.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\InterChat\Receive.wav=$(AppPath)
+C:\InterChat\Send.wav=$(AppPath)
+
+[Package|InterChat|Configure Shared Files]
+Applicable=Yes
+C:\InterChat\InterChat.exe=No
+C:\InterChat\Receive.wav=No
+C:\InterChat\Send.wav=No
+
+[Package|InterChat|Distribution]
+Type=single
+Size=
+Title=InterChat v1.0
+
+[Package|InterChat|IconGroups]
+Group0=InterChat
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|InterChat|InterChat]
+Icon1=InterChat.exe
+Title1=InterChat v1.0
+StartIn1=$(AppPath)
+Key1=Icon5
+
+[Package|InterChat|Package]
+PackageFolder=C:\VBSTUFF\MattsChatProg
+ProjectFolder=C:\VBSTUFF\MattsChatProg
+ServerSideCab=
+File1=C:\VBSTUFF\MattsChatProg\setup.exe
+File2=C:\VBSTUFF\MattsChatProg\Setup.Lst
+File3=C:\VBSTUFF\MattsChatProg\InterChat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|InterChat2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\InterChat
+
+[Package|InterChat2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|InterChat2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|InterChat2|Files Found]
+Receive.wav=C:\WINDOWS\Desktop\InterChat\Receive.wav
+Send.wav=C:\WINDOWS\Desktop\InterChat\Send.wav
+
+[Package|InterChat2|Files Released]
+
+[Package|InterChat2|Missing Dependency Information]
+
+[Package|InterChat2|Out-of-Date Dependency Information]
+
+[Package|InterChat2|Files Added]
+receive.wav=
+send.wav=
+
+[Package|InterChat2|Files Removed]
+
+[Package|InterChat2|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\VBSTUFF\MattsChatProg\InterChat.exe=Yes
+C:\WINDOWS\Desktop\InterChat\Receive.wav=Yes
+C:\WINDOWS\Desktop\InterChat\Send.wav=Yes
+
+[Package|InterChat2|Configure Registry Files]
+Applicable=No
+
+[Package|InterChat2|Configure Remote Servers]
+Applicable=No
+
+[Package|InterChat2|Install Locations]
+C:\InterChat\InterChat.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\InterChat\Receive.wav=$(AppPath)
+C:\InterChat\Send.wav=$(AppPath)
+C:\VBSTUFF\MattsChatProg\InterChat.exe=$(AppPath)
+C:\WINDOWS\Desktop\InterChat\Receive.wav=$(AppPath)
+C:\WINDOWS\Desktop\InterChat\Send.wav=$(AppPath)
+
+[Package|InterChat2|Configure Shared Files]
+Applicable=Yes
+C:\InterChat\InterChat.exe=No
+C:\InterChat\Receive.wav=No
+C:\InterChat\Send.wav=No
+C:\VBSTUFF\MattsChatProg\InterChat.exe=No
+C:\WINDOWS\Desktop\InterChat\Receive.wav=No
+C:\WINDOWS\Desktop\InterChat\Send.wav=No
+
+[Package|InterChat2|Distribution]
+Type=single
+Size=
+Title=InterChat v1.0
+
+[Package|InterChat2|Package]
+PackageFolder=C:\WINDOWS\Desktop\InterChat
+ProjectFolder=C:\VBSTUFF\MattsChatProg
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\InterChat\setup.exe
+File2=C:\WINDOWS\Desktop\InterChat\Setup.Lst
+File3=C:\WINDOWS\Desktop\InterChat\InterChat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|InterChat2|IconGroups]
+Group0=InterChat
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|InterChat2|InterChat]
+Icon1=InterChat.exe
+Title1=InterChat v1.0
+StartIn1=$(AppPath)
+Key1=Icon5
+
+
+[Package|IC1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\InterChat
+
+[Package|IC1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IC1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IC1|Files Found]
+
+[Package|IC1|Files Released]
+
+[Package|IC1|Missing Dependency Information]
+
+[Package|IC1|Out-of-Date Dependency Information]
+
+[Package|IC1|Files Added]
+
+[Package|IC1|Files Removed]
+
+[Package|IC1|Files In Project]
+C:\VBSTUFF\MattsChatProg\InterChat.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|IC1|Configure Registry Files]
+Applicable=No
+
+[Package|IC1|Configure Remote Servers]
+Applicable=No
+
+[Package|IC1|Install Locations]
+C:\VBSTUFF\MattsChatProg\InterChat.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|IC1|Configure Shared Files]
+Applicable=Yes
+C:\VBSTUFF\MattsChatProg\InterChat.exe=No
+
+[Package|IC1|Distribution]
+Type=single
+Size=
+Title=InterChat v1.0
+
+[Package|IC1|IconGroups]
+Group0=InterChat
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|IC1|InterChat]
+Icon1=InterChat.exe
+Title1=InterChat v1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IC1|Package]
+PackageFolder=C:\WINDOWS\Desktop\InterChat
+ProjectFolder=C:\VBSTUFF\MattsChatProg
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\InterChat\setup.exe
+File2=C:\WINDOWS\Desktop\InterChat\Setup.Lst
+File3=C:\WINDOWS\Desktop\InterChat\InterChat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
